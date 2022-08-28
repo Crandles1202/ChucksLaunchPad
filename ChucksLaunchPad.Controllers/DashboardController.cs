@@ -28,10 +28,11 @@ public class DashboardController : Controller
     public IActionResult Testing()
     {
         string connectionString;
-        SqlConnection sqlConnection;
-        
+        SqlConnection sqlConnection = new SqlConnection();
+           
         var conn = "Server=tcp:chuckslaunchpadserver.database.windows.net,1433;Initial Catalog=LaunchPadDB;Persist Security Info=False;User ID=crandles;Password=Valerie55!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
-        //object value = conn.open();
+        sqlConnection.ConnectionString = conn;
+        sqlConnection.Open();
         
         return View();
     }
