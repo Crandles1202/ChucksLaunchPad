@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ChucksLaunchPad/1.0.0": {
+        "runtime": {
+          "ChucksLaunchPad.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChucksLaunchPad/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
