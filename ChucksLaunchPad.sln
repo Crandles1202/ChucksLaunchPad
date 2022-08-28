@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChucksLaunchPad.Tests", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChucksLaunchPad.Models", "ChucksLaunchPad.Models\ChucksLaunchPad.Models.csproj", "{4EFF5B27-C70A-41D6-9280-8F7A0303B727}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChucksLaunchPad.Controllers", "ChucksLaunchPad.Controllers\ChucksLaunchPad.Controllers.csproj", "{51F99075-240F-48F0-B5D7-EBEBFAC355B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{4EFF5B27-C70A-41D6-9280-8F7A0303B727}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EFF5B27-C70A-41D6-9280-8F7A0303B727}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EFF5B27-C70A-41D6-9280-8F7A0303B727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F99075-240F-48F0-B5D7-EBEBFAC355B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F99075-240F-48F0-B5D7-EBEBFAC355B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F99075-240F-48F0-B5D7-EBEBFAC355B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F99075-240F-48F0-B5D7-EBEBFAC355B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
