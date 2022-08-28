@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
@@ -16,6 +16,10 @@
     <ItemGroup>
       <ProjectReference Include="..\ChucksLaunchPad.DataLayer\ChucksLaunchPad.DataLayer.csproj" />
       <ProjectReference Include="..\ChucksLaunchPad.Models\ChucksLaunchPad.Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Properties\" />
     </ItemGroup>
 
 </Project>
