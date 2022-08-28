@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
@@ -6,8 +6,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    
     <ItemGroup>
       <_ContentIncludedByDefault Remove="appsettings.json" />
     </ItemGroup>
+
 
 </Project>
